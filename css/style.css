@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-family: "lilita one", sans-serif;
+    font-size: 30px;
+    color: bisque;
+}
+
+.header{
+    color: bisque;
+
+}
+
+h1{
+    margin: 0;
+    font-size: 2em;
+    color: bisque;
+    font-family: "lilita one", sans-serif;
+    
+}
+
+
+h2{
+    margin-top: 0;
+    text-align: center;
+    font-family: "lilita one", sans-serif;
+    font-size: 40px;
+    color:red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#textMe{
+    margin: 20px 0;
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "lilita one", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.bio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gif {
+    flex: 1;
+}
+
+.portrait {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .media {
+        flex-direction: column;
+    }
+}
+
+
+
+
