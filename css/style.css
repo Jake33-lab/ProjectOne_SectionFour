@@ -28,20 +28,12 @@ nav{
 }
 
 h1{
-    margin: 0;
-    font-size: 2em;
-    color: bisque;
-    font-family: "lilita one", sans-serif;
-    
-}
-
-
-h2{
     margin-top: 0;
     text-align: center;
     font-family: "lilita one", sans-serif;
     font-size: 40px;
     color:red;
+    background-color: bisque;
 }
 
 a{
@@ -59,22 +51,20 @@ a{
     font-size: 20px;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2em;
-}
+
 
 main {
     padding: 20px;
     max-width: 800px;
     margin: auto;
+    background-color: white;
 }
 
 .bio {
-    background-color: white;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .media {
@@ -98,11 +88,7 @@ main {
     flex: 1;
 }
 
-@media (max-width: 768px) {
-    .media {
-        flex-direction: column;
-    }
-}
+
 
 
 
